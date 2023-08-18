@@ -12,4 +12,10 @@ wEScrap is a tool that allows you to extract CSS and HTML from any website. It p
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/vstechno-official/wEScrap
+  cd your-webapp
+  npm install
+  git clone https://github.com/vstechno-official/wEScrap.git
+  npm start
+
+
+wEScrap is created by Vedant Salaskar
