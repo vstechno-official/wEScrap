@@ -1,6 +1,5 @@
-# Web App Extractor
-
-Web App Extractor is a tool that allows you to extract CSS and HTML from any website. It provides a user-friendly interface for entering a URL and extracting the website's styles and content.
+# wEScrap Extractor
+wEScrap is a tool that allows you to extract CSS and HTML from any website. It provides a user-friendly interface for entering a URL and extracting the website's styles and content.
 
 ## Features
 
@@ -13,4 +12,4 @@ Web App Extractor is a tool that allows you to extract CSS and HTML from any web
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/your-webapp.git
+   git clone https://github.com/vstechno-official/wEScrap
