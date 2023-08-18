@@ -1,0 +1,20 @@
+doctype html
+
+html
+  head
+    title wEScrap
+
+  body
+    h1 wEScrap
+    form(action='/extract', method='post')
+      label(for='url') Enter URL: 
+      input(type='url', name='url', required)
+      button(type='submit') Extract
+    if result
+      h2 Extracted CSS
+      each css in result.css
+        link(rel='stylesheet', href=css)
+      h2 Extracted HTML
+      != result.html
+
+      
